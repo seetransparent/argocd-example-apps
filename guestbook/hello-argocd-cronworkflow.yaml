@@ -18,4 +18,4 @@ spec:
         container:
           image: docker/whalesay:latest
           command: [cowsay]
-          args: ["🕓 hello argocd cronworkflow"]
+          args: ["🕓 hello argocd cronworkflow 2"]
