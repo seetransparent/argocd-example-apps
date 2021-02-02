@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: CronWorkflow
 metadata:
   name: hello-argocd-cronworkflow
+  namespace: argo
 spec:
   schedule: "* * * * *"
   timezone: "UTC"   # Default to local machine timezone
